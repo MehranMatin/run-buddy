@@ -141,6 +141,26 @@ section {
     font-size: 16px;
 }
 
+/* SECTION TITLE STYLES START */
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+  
+.secondary-border {
+    border-color: #39a6b2;
+}
+/* SECTION TITLE STYLES END */
+
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -202,24 +222,6 @@ section {
     color: #024e76;
 }
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-  
-.primary-border {
-    border-color: #fce138;
-}
-  
-.secondary-border {
-    border-color: #39a6b2;
-}
-
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -256,18 +258,6 @@ section {
 
 .trainer-bio p {
     font-size: 17px;
-}
-
-.text-left {
-    text-align: left;
-}
-  
-.text-right {
-    text-align: right;
-}
-
-.flex-row {
-    display: flex;
 }
 
 /* REACH OUT STYLES */
@@ -310,10 +300,6 @@ section {
     font-style: normal;
 }
 
-.contact-info a {
-    color: #fce138;
-}
-
 .contact-form input,
 .contact-form textarea {
     border: 1px solid #024e76;
@@ -335,5 +321,21 @@ section {
     padding: 15px 0;
     font-size: 16px;
 }
+
+.contact-info a {
+    color: #fce138;
+}
 /* REACH OUT STYLES END */
 
+/* UTILITIES */
+.text-left {
+    text-align: left;
+}
+  
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
